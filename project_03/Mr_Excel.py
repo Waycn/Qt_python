@@ -42,7 +42,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
 
 if __name__ == "__main__":
-    #import sys
+    import sys
     app = QtGui.QApplication(sys.argv)
     ui = MainWindow()
     ui.show()
